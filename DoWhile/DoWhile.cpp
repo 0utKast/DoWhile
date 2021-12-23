@@ -4,6 +4,7 @@ int main()
 {
     // seleccion debe estar declarada fuera del do-while para que podamos usarla más tarde
     int seleccion{};
+    
 
     do
     {
@@ -22,21 +23,9 @@ int main()
     std::cout << "Has seleccionado la opción #" << seleccion << "\n";
 
     return 0;
+
+   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -59,12 +48,11 @@ int main()
         std::cout << "4) División\n";
 
         std::cin >> seleccion;
-        invalido = (seleccion != 1 && seleccion != 2 &&
-            seleccion != 3 && seleccion != 4);
+        invalido = (seleccion != 1 && seleccion != 2 &&  seleccion != 3 && seleccion != 4);
     }
 
-    // do something with selection here
-    // such as a switch statement
+    // hacer algo con la selección aquí
+    // como una declaración switch
 
     std::cout << "Has seleccionado la opción #" << seleccion << "\n";
 
@@ -82,8 +70,7 @@ int main()
     // seleccion debe estar declarado fuera del loop while para poder usarlo más tarde
     int seleccion{ 0 };
 
-    while (seleccion != 1 && seleccion != 2 &&
-        seleccion != 3 && seleccion != 4)
+    while (seleccion != 1 && seleccion != 2 && seleccion != 3 && seleccion != 4)
     {
         std::cout << "Por favor, haz una selección: \n";
         std::cout << "1) Suma\n";
@@ -100,3 +87,10 @@ int main()
 
     return 0;
 }*/
+
+
+
+
+
+
+
